@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+:root{
+    --cor-body:#020873e8;
+    --cor-corpo:#032CA6;
+    --cor-sessao:#0476D9;
+    --cor-sessao-principal:#05AFF2;
+    --cor-produto04:#05C7F2;
+}
+
+*{
+    margin: 0px;
+    color: aliceblue;
+}
+body{
+    background-color: var(--cor-body);
+}
+
+/* Cabeça */
+
+header{
+    text-align: center;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, var(--cor-body) 10%, var(--cor-corpo));
+}
+header > h1{
+    font-family: "Bree Serif";
+}
+header > a, p{
+    margin: 10px;
+    font-family: "Kanit", sans-serif;
+}
+
+/* Corpo */
+
+main{
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    background-color: var(--cor-corpo);
+    position: relative;
+}
+section{
+    padding: 20px;
+}
+#produto01{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 390px;
+    height: 390px;
+    margin: auto;
+    display: inline-block;
+}
+#produto01 > h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#produto02{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 390px;
+    height: 390px;
+    float: right;
+}
+#prod02-img01{
+    margin-top: 20px;
+    width: 180px;
+    border-radius: 0px 15px 15px 0px;
+}
+#prod02-img02{
+    float: right;
+    position: relative;
+    top: -67%;
+}
+img{
+    border-radius: 0px 15px 15px 0px;
+}
