@@ -104,11 +104,37 @@ main{
 
 #produto03{
     width:900px;
-    height: 600px;
+    height: 590px;
     text-align: justify;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.603);
     border-radius: 10px;
     margin: 30px auto 30px auto;
-    background-color: var(--cor-sessao);
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('notebook-3820634_1280.jpg');
     box-shadow: inset 1px 2px 15px rgba(0, 0, 0, 0.822);
+}
+#produto03 > p {
+    color: black;
+    background-color: rgba(114, 113, 113, 0.726);
+}
+#produto03 > button{
+    background-color: #032CA6;
+    border-radius: 10px;
+    width: 100px;
+}
+#prod03-img01{
+    width: 500px;
+    height: 280px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+#prod03-img02{
+    width: 500px;
+    height: 280px;
+    float: left;
+    padding: 10px;
 }
