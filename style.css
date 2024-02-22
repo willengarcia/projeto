@@ -176,6 +176,20 @@ main{
     float: left;
 }
 
+/* Corpo 05 */
+#produto05 > div{
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+#produto05 > div > h2{
+    color: #0D0D0D;
+    text-align: center;
+    margin: 10px;
+}
+
 /* Efeitos */
 #produto01:hover{
     box-shadow: 1px 1px 10px #ffffffa8;
